@@ -42,7 +42,7 @@ export default function TextForm(props) {
         let a = text.split("");
 
         let final = a.map(function(word) {
-        if(word=="a" || word=="e" || word=="i" || word=="o" || word=="u" || word=="A" || word=="E" || word=="I" || word=="O" || word=="U")
+        if(word==="a" || word==="e" || word==="i" || word==="o" || word==="u" || word==="A" || word==="E" || word==="I" || word==="O" || word==="U")
         {
             return '<span class="yellow">' + word + '</span>'
         } else {
@@ -65,7 +65,7 @@ export default function TextForm(props) {
             <div className="mb-3"> 
             <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor: props.mode==='dark'?'#13466e':'white', color: props.mode==='dark'?'white':'#042743'}} id="myBox" rows="8"></textarea>
             </div>
-            <button disabled={text.length==0} className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to Uppercase</button>
+            <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to Uppercase</button>
             <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleLoClick}>Convert to Lowercase</button>
             <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleClearClick}>Clear Text</button>
             <button disabled={text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleCopy}>Copy Text</button>
@@ -82,4 +82,4 @@ export default function TextForm(props) {
         </div>
         </>
     )
-}
+}   
