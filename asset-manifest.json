@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TextUtility_demo/static/css/main.d7a5823a.css",
+    "main.js": "/TextUtility_demo/static/js/main.36487fb8.js",
+    "index.html": "/TextUtility_demo/index.html",
+    "main.d7a5823a.css.map": "/TextUtility_demo/static/css/main.d7a5823a.css.map",
+    "main.36487fb8.js.map": "/TextUtility_demo/static/js/main.36487fb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7a5823a.css",
+    "static/js/main.36487fb8.js"
+  ]
+}
