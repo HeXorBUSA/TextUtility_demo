@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.8a2eb229.css","mappings":"AAAA,QACE,SACF,CAEA,eACE,yBACF","sources":["style.css"],"sourcesContent":[".yellow {\r\n  color: rgb(255, 0, 0);\r\n}\r\n\r\n.vb_capitalize{\r\n  text-transform: capitalize;\r\n}"],"names":[],"sourceRoot":""}
