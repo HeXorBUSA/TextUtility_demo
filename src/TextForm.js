@@ -67,7 +67,7 @@ export default function TextForm(props) {
     
     const handleVovelsRed = () => {
 
-        let a = text.split(" ");
+        let a = text.split("");
 
         let final = a.map(function(word) {
         if(word==="a" || word==="e" || word==="i" || word==="o" || word==="u" || word==="A" || word==="E" || word==="I" || word==="O" || word==="U")
@@ -79,7 +79,7 @@ export default function TextForm(props) {
         })
 
         var e = document.getElementById('result')
-        e.innerHTML = final.join(' ')
+        e.innerHTML = final.join('')
 
     }
 
